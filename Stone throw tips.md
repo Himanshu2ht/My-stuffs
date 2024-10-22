@@ -1,5 +1,3 @@
-# Disclaimer! This is not for `Kashmiris` .
-
 # Technique for Throwing a Stone the Farthest
 
 ## 1. Stance and Grip

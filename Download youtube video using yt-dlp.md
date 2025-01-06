@@ -17,4 +17,18 @@ winget install Gyan.FFmpeg
 ```
 yt-dlp -f 'bestvideo[height=1080]+bestaudio/best[height=1080]' "Youtube video/playlist link (within inverted comma)"
 ```
+
+
+## For music/ audio only
+```
+yt-dlp -f bestaudio --extract-audio --audio-format mp3 "https://youtu.be/sVkSjrUaatg?si=od7hc5-87CuvnWho"
+```
+This will download the audio and convert it to MP3 format automatically.
+Convert to MP3 using ffmpeg (if needed):
+If you download the video using a different format, use ffmpeg to convert it:
+```
+ffmpeg -i input_video.mp4 output.mp3
+```
+
+
 ## Enjoy!

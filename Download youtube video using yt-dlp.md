@@ -17,7 +17,7 @@ winget install Gyan.FFmpeg
 ```
 yt-dlp -f 'bestvideo[height=1080]+bestaudio/best[height=1080]' "Youtube video/playlist link (within inverted comma)"
 ```
-
+---
 
 ## For music/ audio only
 ```
